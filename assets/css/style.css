@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar {
     background-color: #333; /* Negro mate */
     display: flex;
@@ -39,7 +43,7 @@
   }
   
   .hero {
-    background-image: url('hero-image.jpg'); /* replace with your background image */
+    background-image: url('https://st2.depositphotos.com/1020618/6491/i/450/depositphotos_64914465-stock-photo-spa-still-life.jpg'); /* replace with your background image */
     background-size: cover;
     background-position: center;
     height: 100vh;
