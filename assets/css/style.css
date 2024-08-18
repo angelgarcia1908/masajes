@@ -75,6 +75,25 @@ header p {
     animation: slideUp 1.5s ease-out;
 }
 
+/* Agregado para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    header {
+        height: 50vh; /* Reducir altura del hero en dispositivos móviles */
+    }
+}
+
+/* Agregado para agregar capa de blurred */
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Agregar capa de blurred */
+    z-index: -1;
+}
+
 .btn-primary, .btn-secondary {
     display: inline-block;
     padding: 15px 30px;
@@ -157,44 +176,4 @@ header p {
 .service-card {
     background-color: #333;
     padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-footer {
-    background-color: #111;
-    color: #f4f4f4;
-    padding: 20px 0;
-    text-align: center;
-}
-
-#about {
-    background-color: #333;
-    padding: 20px;
-    text-align: center;
-}
-
-#about h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-#about p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-#about ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#about li {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #fff;
-}
+    margin: 
