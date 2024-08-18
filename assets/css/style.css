@@ -174,7 +174,8 @@ header::before {
 }
 
 .service-card {
-    background-color: #333;
+    background-color: #ffffff;
+    color: black;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -184,13 +185,13 @@ header::before {
 .service-card h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #fff;
+    color: black;
 }
 
 .service-card p {
     font-size: 16px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #333;
 }
 
 #about {
