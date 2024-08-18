@@ -1,43 +1,71 @@
-*{
-    margin:0;
-    padding: 0;
+.navbar {
+    background-color: #333; /* Negro mate */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
   }
-  .navbar {
-      background-color: #333; /* Negro mate */
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem;
-    }
-    
-    .navbar-logo {
-      display: flex;
-      align-items: center;
-    }
-    
-    .navbar-logo img {
-      width: 40px; /* adjust the width of the logo image */
-      height: 40px; /* adjust the height of the logo image */
-      margin-right: 10px;
-    }
-    
-    .navbar-logo span {
-      font-size: 18px;
-      color: #ffd700; /* Dorado */
-      font-weight: bold;
-    }
-    
-    .navbar-links {
-      display: flex;
-      justify-content: flex-end;
-    }
-    
-    .navbar-links a {
-      color: #ffd700; /* Dorado */
-      text-decoration: none;
-      margin-left: 20px;
-    }
-    
-    .navbar-links a:hover {
-      color: #fff; /* Blanco */
-    }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    width: 40px; /* adjust the width of the logo image */
+    height: 40px; /* adjust the height of the logo image */
+    margin-right: 10px;
+  }
+  
+  .navbar-logo span {
+    font-size: 18px;
+    color: #ffd700; /* Dorado */
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-links a {
+    color: #ffd700; /* Dorado */
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar-links a:hover {
+    color: #fff; /* Blanco */
+  }
+  
+  .hero {
+    background-image: url('hero-image.jpg'); /* replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Blanco */
+  }
+  
+  .hero-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    background-color: #333; /* Negro mate */
+    color: #ffd700; /* Dorado */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background-color: #444; /* Negro mate oscuro */
+  }
